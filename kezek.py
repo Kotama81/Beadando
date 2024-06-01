@@ -1,3 +1,5 @@
+#ASCII kezformak
+
 ko = '''
     _______
 ---'   ____)
