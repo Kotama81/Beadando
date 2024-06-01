@@ -56,7 +56,7 @@ while korok_szama > kor:
 
     print(f"A játék állása: játékos pontszáma: {jatekos_pontszam}, a számítógép pontszáma: {gep_pontszam}.\nHátralévő körök száma: {korok_szama - kor}\n") #kiiratom a jatek eddigi allasat es a hatralevo korok szamat
 
-    if jatekos_pontszam > gep_pontszam: #
+    if jatekos_pontszam > gep_pontszam: #vegeredmeny szamitasa
         nyertes = "a játékos nyert"
     elif jatekos_pontszam < gep_pontszam:
         nyertes = "a számítógép nyert"
@@ -64,4 +64,4 @@ while korok_szama > kor:
         nyertes = "döntetlen"
 
 
-print(f"A játék eredménye: {nyertes}!")
+print(f"A játék eredménye: {nyertes}!") #vegeredmeny kiiratasa
